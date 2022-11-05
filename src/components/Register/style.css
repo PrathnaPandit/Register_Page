@@ -1,0 +1,44 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.Register-page {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 15px;
+  border: 2px solid;
+  padding: 40px;
+  max-width: 450px;
+  text-align: Left;
+  font-size: 17px;
+  background-color: hsl(293, 84%, 90%);
+}
+
+label {
+  text-align: right;
+  margin-right: 40px;
+  font-weight: bold;
+}
+
+input {
+  width: 200px;
+  height: 20px;
+  margin: 0px 10px;
+}
+
+#submit-button {
+  width: 120px;
+  margin: 10px auto;
+  height: 30px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.error {
+  color: red;
+  font-size: 10px;
+  text-align: center;
+  margin-left: 150px;
+}
